@@ -23,11 +23,6 @@
     background-color: orange;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    padding: 25px;
-}
 
 /*-------------------------------------------------------Headings*/
 
@@ -56,6 +51,7 @@ header {
     font-weight: 400; 
     font-size: 46px;
     margin-top: 50px;
+    padding-left: 20px
 }
 
 .title {
@@ -63,7 +59,8 @@ header {
     font-weight: 100;
     font-size: 28px;
     margin-top: 20px;
-    margin-bottom: 90px
+    margin-bottom: 90px;
+    padding-left: 20px;
 }
 
 /*-------------------------------------------------------Nav Bar Inline Fix*/
@@ -76,7 +73,54 @@ header {
     font-size: 0px;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+/*-------------------------------------------------------Menu Icons and Button*/
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    height: 120px;
+    color: white;
+    text-decoration: none;
+}
+
+.menuitem a i {
+    padding-top: 25px;
+    display: block;
+    font-size: 25px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+/*-------------------------------------------------------Button Hovers*/
+
+.hvr-shrink {
+    transition-duration: .75s;
+    background-color: orange;
+}
+
+.hvr-hang {
+    
 }
