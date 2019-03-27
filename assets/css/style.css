@@ -7,6 +7,10 @@
     background-color: #191970;
 }
 
+.bg-three-reasons {
+    background-color: #fff
+}
+
 .ui-menu-col-home {
     background-color: red;
 }
@@ -22,8 +26,45 @@
 .ui-menu-col-download {
     background-color: orange;
 }
+/*----------------------------------------------------Special Paddings / Margins & Text*/
+h1,
+h2,
+h3,
+h4 {
+    margin:0;
+}
 
+.uppercase {
+    text-transform: uppercase;
+}
+.general-sub {
+    font-weight: 200;
+    color: #fafafa;
+}
 
+.inline-block {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 /*-------------------------------------------------------Headings*/
 
 header {
@@ -123,4 +164,55 @@ header {
 
 .hvr-hang {
     
+}
+
+/*-------------------------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-headings {
+    padding: 20px;
 }
